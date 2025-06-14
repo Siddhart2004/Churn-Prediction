@@ -1,16 +1,16 @@
-# Customer Churn Prediction 🎯
+# Customer Churn Prediction 
 
 Predict which telecom customers are likely to churn using advanced machine learning techniques.
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 
 Customer churn is a major concern for subscription-based businesses. Reducing churn leads to improved customer lifetime value and stable revenue. In this project, I developed an end-to-end ML pipeline to predict churn and identify the key drivers behind it.
 
 ---
 
-## 🧪 Tech Stack
+##  Tech Stack
 
 - **Languages & Tools:** Python, Pandas, NumPy, Matplotlib, Seaborn  
 - **ML Frameworks:** Scikit‑learn (Random Forest, Logistic Regression), SMOTE (imbalanced-learn)  
@@ -18,7 +18,7 @@ Customer churn is a major concern for subscription-based businesses. Reducing ch
 
 ---
 
-## 📋 Dataset
+##  Dataset
 
 The dataset includes telecom customer information such as:
 
@@ -32,7 +32,7 @@ The dataset includes telecom customer information such as:
 
 ---
 
-## 🛠️ Methodology
+##  Methodology
 
 1. **Exploratory Data Analysis**  
    - Visualized churn distribution across features such as tenure, contract type, monthly charges  
@@ -59,18 +59,11 @@ The dataset includes telecom customer information such as:
 
 ---
 
-## 📈 Results & Insights
+##  Results & Insights
 
 - Achieved **94% accuracy**, **macrof1 ~0.94**, **macro-recall ~0.93**  
 - Important churn predictors: contract type, monthly charges, tenure, satisfaction score, payment method  
 - Senior citizens and month-to-month plans have significantly higher churn rates
-
----
-
-## 🌐 Deployment (Next Steps)
-
-- Plans to integrate the trained model into a Flask-based web app for live predictions via form input and API
-- Exploring deployment on cloud services like Heroku or AWS for broader accessibility
 
 ---
 
